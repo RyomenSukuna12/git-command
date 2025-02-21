@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('any image you want to add') no-repeat;
+    background: url('img/lofi_cafegif.gif') no-repeat;
     background-size: cover;
     background-position: center;
 }
