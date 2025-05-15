@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,200;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <title>Contacting Grox</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="https://yt3.googleusercontent.com/ytc/AIdro_lEpx1VA_H_NpAWkcvGqd9rzgpVmtooUKl8XIWYyn1OU8s=s160-c-k-c0x00ffffff-no-rj" width="60%"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Popularity.html">Popularity</a></li>
+                    <li><a href="Channel.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Me Bud</h1>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127482.68825018003!2d101.604587531749!3d3.13850266068121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc362abd08e7d3%3A0x232e1ff540d86c99!2sKuala%20Lumpur%2C%20Federal%20Territory%20of%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1747137376808!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-me">
+        <div class="contact-row">
+            <div class="contact-cl">
+                <span>
+                    <h5>9-11 Residensi Jalan Jubilee</h5>
+                    <p>Malaysia, Kuala Lumpur 55200</p>
+                </span>
+                <span>
+                    <h5>+60 136307107</h5>
+                    <p>Im always ready execpt Monday</p>
+                </span><br>
+                <span>
+                    <h5>kuktevancung@gmail.com</h5>
+                    <p>You can <bold>Email</bold> me</p>
+                </span>
+            </div>
+        </div>
+    </section>
+    <div class="contact-col">
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="0cfe7012-beb7-4962-8736-8108414e0646">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Email Adress" required>
+            <input type="text" name="subject" placeholder="Enter your subject" required>
+            <textarea rows="8" name="message" placeholder="message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">SEND</button>
+        </form>
+
+    </div>
+
+    <section class="footer">
+        <h4>About Grox aka Me</h4>
+        <p>I started Youtube because Im poor and I make kids happy I'm a minecraft youtuber with 4.43 million views</p>
+
+        <div class="icons">
+            <img src="https://img.icons8.com/?size=100&id=118466&format=png&color=000000" width="20">
+            <img src="https://img.icons8.com/?size=100&id=BPvo4DAyjprS&format=png&color=000000" width="20">
+            <img src="https://img.icons8.com/?size=100&id=20383&format=png&color=000000" width="20">
+        </div>
+
+        <p>Made by Bryan</p>
+    </section>
+
+    <!----Java Script---->
+    <script>
+
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
